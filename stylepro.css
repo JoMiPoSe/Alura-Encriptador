@@ -1,0 +1,122 @@
+*{
+    font-family: 'Nova Square';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: azure;
+}
+.logoa{
+    display: inline;
+    position: relative;
+    left: 5%;
+    top: 2px;
+    width: 50px;
+}
+.logob{
+    display: inline;
+    position: relative;
+    left: 86%;
+    top: 10pxpx;
+    width: 90px;
+}
+.informacion{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35%;
+    width: 30%;
+    font-family: 'Nova Square';
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #463f3f;
+    border: 5px solid orange;
+    border-radius: 30px;
+}
+main{
+    width: 90%;
+    height: 500px;
+    background-color: #463f3f;
+    border: 20px solid #ccc;
+    margin: 0 auto;
+}
+.mensaje, .respuesta{
+    float: left;
+    width: 33%;
+    height: 493px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    background: none;
+}
+.mensaje::placeholder{
+    color: rgb(255, 255, 255);
+}
+.botones-principal{
+    position: relative;
+    top: 200px;
+    width: 33%;
+    float: left;
+    justify-content: center;
+    background-color: rgb(40, 45, 61);
+    cursor: pointer;
+    
+}
+.encriptar, .desencriptar{
+    width: 95%;
+    margin: 25px 10px;
+    
+}
+.copiar{
+    float: right;
+    width: 40%;
+    margin: 28px 10px 10px;
+}
+.pegar{
+    width: 40%;
+    margin: 10px;
+    margin: 28px 10px 10px;
+}
+.encriptar:hover, .desencriptar:hover, .copiar:hover, .pegar:hover{
+    background: rgb(30, 207, 219);
+    transform: scale(1.02);
+}
+@media screen and (max-width:700px){
+    *{
+        font-size: 20px;
+    }
+    .logoa{
+        width: 15px;
+        top: 3px;
+        left: 3px;
+    }
+    .logob{
+        width: 35px;
+        top: 3px;
+        left: 85%;
+    }
+    .informacion{
+        font-size: 13px;
+        width: 60%;
+        left: 19%;
+        top: 5px;
+    }
+    .mensaje{
+        display: block;
+        width: 99%;
+        height: 150px;
+    }
+    .botones-principal{
+        top: 10px;
+        width: 99%;
+    }
+    .encriptar, .desencriptar{
+        margin: 5px;
+    }
+    .respuesta{
+        display: block;
+        width: 99%;
+        height: 150px;
+    }
+}
