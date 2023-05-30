@@ -56,28 +56,28 @@ main{
 }
 .botones-principal{
     position: relative;
-    top: 200px;
+    top: 15px;
     width: 33%;
     float: left;
     justify-content: center;
     background-color: rgb(40, 45, 61);
     cursor: pointer;
+    border-radius: 25px;
 
 }
 .encriptar, .desencriptar{
     width: 95%;
-    margin: 25px 10px;
+    margin: 50px 10px;
     
 }
 .copiar{
     float: right;
     width: 40%;
-    margin: 28px 10px 10px;
+    margin: 50px 10px;
 }
 .pegar{
     width: 40%;
-    margin: 10px;
-    margin: 28px 10px 10px;
+    margin: 50px 10px;
 }
 .encriptar:hover, .desencriptar:hover, .copiar:hover, .pegar:hover{
     background: rgb(30, 207, 219);
